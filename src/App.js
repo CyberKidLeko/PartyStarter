@@ -15,7 +15,19 @@ const gameModes = {
     "WATERFALLLLLLL!!!!!",
     "Person with the most social media followers picks someone to drink",
     "Last person to check their phone drinks",
-    "Everyone who's wearing jeans drinks"
+    "Everyone who's wearing jeans drinks",
+    "Take a drink if you've ever stalked someone's profile for over 30 minutes.",
+    "Group vote: Who's most likely to ghost someone? That person drinks.",
+    "Drink if you've ever had a crush on someone in this room.",
+    "Everyone guess how many people you've kissed. Closest guess drinks.",
+    "First person to name five sex positions avoids drinking. Everyone else, bottoms up.",
+    "Show the last photo you took or take 2 drinks.",
+    "Act out your drunk alter ego. Best performance picks someone to drink.",
+    "Reveal your screen time for today. Highest = 2 drinks.",
+    "What's your toxic trait? Say it or drink.",
+    "Drink if you've cried during a movie in the last month.",
+    "Everyone do their best fake laugh. Worst one drinks.",
+    "Pull up your IG DMs and read the most unhinged message you've received or drink."
   ],
   adults: [
     "Take a shot if you've ever lied about your age to get into a club.",
@@ -27,7 +39,19 @@ const gameModes = {
     "Drink if you've ever hooked up with someone you met at a bar.",
     "Last person to take a selfie drinks",
     "Take a shot if you've ever had a one-night stand",
-    "Person with the most tattoos chooses someone to drink"
+    "Person with the most tattoos chooses someone to drink",
+    "What’s your biggest red flag? Be honest or drink.",
+    "Pretend you're sexting. One sentence only. Best one picks someone to drink.",
+    "Drink if you've ever had sex in a public place.",
+    "Do your most seductive voice saying 'I want you' — or drink.",
+    "Whoever has the most unread emails drinks twice.",
+    "Last person to show a hickey drinks.",
+    "Send a random emoji to your situationship or ex — or take 2 drinks.",
+    "Google 'naughty synonym for ___' — fill the blank with the word the group picks — or drink.",
+    "Imitate porn acting for 10 seconds or drink.",
+    "Do a sexy dance for someone across the room or finish your drink.",
+    "What's your wildest drunk story? Tell or sip 3 times.",
+    "Tell the group your 'walk of shame' story — or shamefully drink instead."
   ],
   couples: [
     "Kiss your partner or take two shots.",
@@ -47,7 +71,21 @@ const gameModes = {
     "Lick any liquid off my body, neck to... uh... you know.",
     "Turn me on without touching me or drink.",
     "Let me play with your private part for 30 seconds or drink.",
-    "Spell a word on my body using your tongue."
+    "Spell a word on my body using your tongue.",
+    "Make eye contact and say your dirtiest thought right now — or drink.",
+    "Swap clothes with your partner (or parts of them) or drink.",
+    "Take turns undressing each other (1 item only) or drink.",
+    "Say the last time your partner turned you on. Be specific, or drink.",
+    "Lick your partner somewhere random, blindfolded.",
+    "Roleplay a fantasy for 60 seconds or drink.",
+    "Use only your mouth to 'move' an ice cube from their neck to their stomach.",
+    "Whisper in their ear what you want to do to them after this game. Or... drink.",
+    "One of you moans your partner's name. Best moan wins. Loser drinks.",
+    "Describe in vivid detail your partner’s best physical feature.",
+    "Let your partner draw something on your chest with their finger or tongue.",
+    "Take your partner’s hand and show them how you like to be touched. Or drink.",
+    "Act out a scene from your favorite spicy movie — or finish your drink.",
+    "Show everyone the last spicy pic you sent to your partner — or drink."
   ]
 };
 
@@ -123,7 +161,7 @@ function App() {
               className="mode-btn adults" 
               onClick={() => selectMode('adults')}
             >
-              18+ Friends
+              We're all adults here
             </button>
             <button 
               className="mode-btn couples" 

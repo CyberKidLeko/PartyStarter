@@ -29,7 +29,7 @@ body {
 }
 
 .intro-screen {
-  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  background: linear-gradient(135deg, #d6710c, #df0000);
   color: white;
 }
 
@@ -93,11 +93,11 @@ body {
 }
 
 .mode-btn.adults {
-  background-color: #FF5722;
+  background-color: #0033cd;
 }
 
 .mode-btn.couples {
-  background-color: #E91E63;
+  background-color: #a60000;
 }
 
 .mode-btn:hover {
