@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PartyStarter/static/css/main.f2fc55c0.css",
+    "main.js": "/PartyStarter/static/js/main.d5048bbb.js",
+    "static/js/453.15ba2117.chunk.js": "/PartyStarter/static/js/453.15ba2117.chunk.js",
+    "index.html": "/PartyStarter/index.html",
+    "main.f2fc55c0.css.map": "/PartyStarter/static/css/main.f2fc55c0.css.map",
+    "main.d5048bbb.js.map": "/PartyStarter/static/js/main.d5048bbb.js.map",
+    "453.15ba2117.chunk.js.map": "/PartyStarter/static/js/453.15ba2117.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2fc55c0.css",
+    "static/js/main.d5048bbb.js"
+  ]
+}
